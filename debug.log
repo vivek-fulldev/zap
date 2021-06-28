@@ -1,0 +1,600 @@
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5631
+Internal Server Error: /api/signin/
+Traceback (most recent call last):
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py", line 88, in post
+    print("tttttttttttttttt",user[0])
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+"POST /api/signin/ HTTP/1.1" 500 100106
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5631
+"POST /api/signin/ HTTP/1.1" 200 5598
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/signin/ HTTP/1.1" 200 5598
+Not Found: /
+"GET / HTTP/1.1" 404 2151
+"GET /admin/ HTTP/1.1" 200 8841
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 1942
+"GET /static/admin/css/base.css HTTP/1.1" 200 16307
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18617
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+"GET /admin/auth/user/ HTTP/1.1" 200 11582
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 5418
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6306
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/actions.js HTTP/1.1" 200 6783
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 8632
+"GET /admin/jsi18n/ HTTP/1.1" 200 3187
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/auth/user/27/change/ HTTP/1.1" 200 19852
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 7788
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8399
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4257
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19750
+"GET /admin/jsi18n/ HTTP/1.1" 200 3187
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 10592
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"POST /admin/auth/user/27/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 11796
+"GET /admin/jsi18n/ HTTP/1.1" 200 3187
+"POST /api/signin/ HTTP/1.1" 200 5598
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5631
+"POST /api/signin/ HTTP/1.1" 200 5598
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/signin/ HTTP/1.1" 200 5598
+"POST /api/signin/ HTTP/1.1" 200 5598
+"GET /admin/auth/user/ HTTP/1.1" 200 11582
+"GET /admin/jsi18n/ HTTP/1.1" 200 3187
+"POST /api/signin/ HTTP/1.1" 200 5598
+"GET /admin/auth/user/27/change/ HTTP/1.1" 200 19860
+"GET /admin/jsi18n/ HTTP/1.1" 200 3187
+"POST /admin/auth/user/27/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 11796
+"GET /admin/jsi18n/ HTTP/1.1" 200 3187
+"POST /api/signin/ HTTP/1.1" 200 5598
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5631
+"GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+"POST /api/signin/ HTTP/1.1" 200 5598
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/signin/ HTTP/1.1" 200 5598
+"GET /admin/logout/ HTTP/1.1" 200 1509
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+Internal Server Error: /api/signin/
+Traceback (most recent call last):
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py", line 93, in post
+    login(request, user)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 126, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+"POST /api/signin/ HTTP/1.1" 500 101525
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5597
+"POST /api/signin/ HTTP/1.1" 200 5598
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 6186
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /admin/logout/ HTTP/1.1" 200 1509
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5597
+Internal Server Error: /api/signin/
+Traceback (most recent call last):
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py", line 93, in post
+    login(request, user)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 126, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+"POST /api/signin/ HTTP/1.1" 500 101477
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5597
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+"GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Internal Server Error: /api/signin/
+Traceback (most recent call last):
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py", line 93, in post
+    login(request, user)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 126, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+"POST /api/signin/ HTTP/1.1" 500 101525
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/brands/
+"GET /api/brands/ HTTP/1.1" 405 5612
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/brands/ HTTP/1.1" 200 57
+Method Not Allowed: /api/brands/
+"GET /api/brands/ HTTP/1.1" 405 5612
+"POST /api/brands/ HTTP/1.1" 200 58
+Method Not Allowed: /api/brands/
+"GET /api/brands/ HTTP/1.1" 405 5612
+"POST /api/brands/ HTTP/1.1" 200 50
+"POST /api/brands/ HTTP/1.1" 200 22
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5597
+Internal Server Error: /api/signin/
+Traceback (most recent call last):
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py", line 93, in post
+    login(request, user)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 126, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+"POST /api/signin/ HTTP/1.1" 500 101515
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/brands/ HTTP/1.1" 200 22
+/home/kusum/Documents/Projects/zapio/zapio/zapio/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5597
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+Internal Server Error: /api/signin/
+Traceback (most recent call last):
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py", line 97, in post
+    login(request, user)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 126, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+"POST /api/signin/ HTTP/1.1" 500 101553
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5597
+Internal Server Error: /api/signin/
+Traceback (most recent call last):
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py", line 97, in post
+    login(request, user)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 126, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+"POST /api/signin/ HTTP/1.1" 500 101559
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5597
+Internal Server Error: /api/signin/
+Traceback (most recent call last):
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py", line 96, in post
+    login(request, user)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 126, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+"POST /api/signin/ HTTP/1.1" 500 101517
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5597
+Internal Server Error: /api/signin/
+Traceback (most recent call last):
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py", line 93, in post
+    login(request, user)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 126, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+"POST /api/signin/ HTTP/1.1" 500 101528
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5597
+"POST /api/signin/ HTTP/1.1" 200 5564
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2151
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2202
+Not Found: /api/login/
+"GET /api/login/ HTTP/1.1" 404 2411
+Not Found: /api/login/
+"GET /api/login/ HTTP/1.1" 404 2411
+Not Found: /api/login/
+"GET /api/login/ HTTP/1.1" 404 2411
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5597
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+"POST /api/signin/ HTTP/1.1" 200 5564
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2194
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 200 1185
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 8910
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /admin/auth/user/ HTTP/1.1" 200 12758
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3187
+"GET /static/admin/img/search.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+"GET /admin/auth/user/add/ HTTP/1.1" 200 9068
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3187
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /admin/auth/user/ HTTP/1.1" 200 12758
+"GET /admin/auth/user/1/change/ HTTP/1.1" 200 19976
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3187
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+Not Found: /
+"GET / HTTP/1.1" 404 2151
+"GET /admin/auth/user/1/change/ HTTP/1.1" 200 19976
+"GET /admin/auth/ HTTP/1.1" 200 3244
+"GET /admin/auth/user/add/ HTTP/1.1" 200 9068
+"GET /admin/jsi18n/ HTTP/1.1" 200 3187
+Not Found: /
+"GET / HTTP/1.1" 404 2151
+"GET /admin/ HTTP/1.1" 200 8910
+"GET /admin/auth/user/ HTTP/1.1" 200 12758
+"GET /admin/jsi18n/ HTTP/1.1" 200 3187
+"GET /admin/auth/user/add/ HTTP/1.1" 200 9068
+"GET /admin/jsi18n/ HTTP/1.1" 200 3187
+"POST /admin/auth/user/add/ HTTP/1.1" 200 9235
+"GET /admin/jsi18n/ HTTP/1.1" 200 3187
+"POST /admin/auth/user/add/ HTTP/1.1" 200 9350
+"GET /admin/jsi18n/ HTTP/1.1" 200 3187
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/34/change/ HTTP/1.1" 200 20177
+"GET /admin/jsi18n/ HTTP/1.1" 200 3187
+"GET /admin/auth/ HTTP/1.1" 200 3244
+Forbidden: /api/signin/
+"POST /api/signin/ HTTP/1.1" 403 3907
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5631
+"POST /api/signin/ HTTP/1.1" 200 5598
+"GET /admin/logout/ HTTP/1.1" 200 1509
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5597
+"POST /api/signin/ HTTP/1.1" 200 5564
+"POST /api/signin/ HTTP/1.1" 200 5564
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/signin/
+Traceback (most recent call last):
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py", line 90, in post
+    user = authenticate(username=username,password=password)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 73, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/contrib/auth/backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 45, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/db/models/query.py", line 425, in get
+    num = len(clone)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/db/models/query.py", line 1303, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/db/models/sql/where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/db/models/lookups.py", line 300, in as_sql
+    return super().as_sql(compiler, connection)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/db/models/lookups.py", line 179, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "/home/kusum/Documents/Projects/zapio/venv/lib/python3.6/site-packages/django/db/models/lookups.py", line 283, in process_rhs
+    'The QuerySet value for an exact lookup must be limited to '
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+"POST /api/signin/ HTTP/1.1" 500 170157
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5597
+"POST /api/signin/ HTTP/1.1" 200 5564
+/home/kusum/Documents/Projects/zapio/zapio/Brands/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/signin/ HTTP/1.1" 200 5564
+"POST /api/signin/ HTTP/1.1" 200 5564
+Method Not Allowed: /api/signin/
+"GET /api/signin/ HTTP/1.1" 405 5597
+Watching for file changes with StatReloader
+"POST /api/signin/ HTTP/1.1" 200 5564
